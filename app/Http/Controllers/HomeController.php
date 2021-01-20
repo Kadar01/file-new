@@ -2,27 +2,20 @@
 
 namespace App\Http\Controllers;
 
-class NewPyController extends Controller
+class sudinController extends Controller
 {
-	public function tarik()
-	{
-		return view("fast");
-	}
+    public function satu()
+    {
+        return view("sudin-1");
+    }
 
-	public function sist()
-	{
-		return view("rk");
-	}
+    public function dua()
+    {
+        return view("sudin-2");
+    }
 
-	public function semongko()
-	{
-		return view("hello");
-	}
-
-	public function index()
-	{
-		return view("test-tema");
-	}
-
+    public function tiga()
+    {
+        return view("sudin-3");
+    }
 }
-
